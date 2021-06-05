@@ -1,12 +1,15 @@
 ### Problem Statement:
 ```txt
-In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques.
+In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher,
+Caesar's code or Caesar shift, is one of the simplest and most widely known 
+encryption techniques.
 
-It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
+It is a type of substitution cipher in which each letter in the plaintext is 
+replaced by a letter some fixed number of positions down the alphabet.
 ```
 
 ### Contents of ciphertext.txt:
-	- `uapv{ndj'kt_qtvjc_ndjg_rgneid_psktcijgth}`
+	- uapv{ndj'kt_qtvjc_ndjg_rgneid_psktcijgth}
 
 As stated by the challenge statement, the encryption is a Caesar cipher of some sort.
 Now, to solve this, we may try the following approach:
@@ -15,6 +18,7 @@ First, we make a substitution table for the Caesar cipher.
 
 Since we know, that the flag may be in the format: "flag{...}"
 We can map out that:
+
 	- u => f
 	- a => l
 	- p => a

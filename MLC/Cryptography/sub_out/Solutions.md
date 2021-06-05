@@ -6,6 +6,9 @@ The ones with the puzzles and the decoder rings.
 Except it gets more complicated if you don't have the decoder ring!
 ```
 
+---
+
+
 ### Contents of `ciphertext.txt`:
 ```txt
 izu gjweft yifgx izji tjluy wf yuwyu yijgiy frr vkiz jw kdu dgujt igadl j dzur jwe j hkudu fr hpaif.
@@ -31,3 +34,15 @@ ykwdu izu rffinjpp hpjxugy vugu dzjykwm izut izu mfgkppjy zfhhue kwif izu mkjwi 
 izu yifgx uwey izugu k't yfggx if yjx nai fz vupp zux, zux, zux.
 izu rpjm ky "izux jpp pksue zjhhkpx uoug jriug".
 ```
+
+---
+
+A script may be implemented for solving this, but I just used [this](https://www.guballa.de/substitution-solver) website :)
+
+---
+
+### Decrypted flag:
+	"they all lived happily eqer after"
+
+
+Link to the challenge: [Sub_out](https://training.majorleaguecyber.org/challenges#Sub%20Out-5)

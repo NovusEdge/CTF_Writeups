@@ -14,4 +14,9 @@ We encrypted this flag using the XOR Cipher but we'll give you the key.
 #### Given Key:
     `yL\x8d\x06$\x9f\x97\xcd\x93-S/\xe6\xc5"\xb6\xc3\x9f\xf2\x08\xd8\xcdVY\x9fu\xc8t\xc1\xe2\x8e`
 
+As the question mentions, the flag has been encrypted using `XOR encryption`, with the given key.
 
+To decrypt the flag, we may use a script like `exclusor.py`
+
+#### Decrypted flag:
+	flag{3xclusivity_4t_it5_fin3st}

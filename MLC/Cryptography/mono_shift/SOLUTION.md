@@ -36,3 +36,4 @@ Shifted|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|a|b|c|d|e|f|g|h|i|j|k
 We can implement a script like `mono_shift_solution.py` to obtain the decrypted flag.
 
 ### Decrypted flag:
+	flag{you've_begun_your_crypto_adventures}

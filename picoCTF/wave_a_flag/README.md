@@ -35,5 +35,4 @@ And thus, we've got the flag. :)
 #### Flag:
     picoCTF{b1scu1ts_4nd_gr4vy_755f3544}
 
-
 Link to the challenge: [Wave A Flag](https://play.picoctf.org/practice/challenge/170?page=1&solved=0)

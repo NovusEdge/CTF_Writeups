@@ -19,5 +19,5 @@ if __name__ == '__main__':
     start = time()
     flag = decode_flag()
 
-    print(f"\nThe flag is: { flag }", end = "")
+    print(f"\nThe flag is: { flag }")
     print(f"Time Taken: { time() - start }\n")

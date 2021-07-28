@@ -108,4 +108,4 @@ DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 ---
 
-Link to the level: [Level 5 ➙ Level 6](https://overthewire.org/wargames/bandit/bandit5.html)
+Link to the level: [Level 5 ➙ Level 6](https://overthewire.org/wargames/bandit/bandit6.html)

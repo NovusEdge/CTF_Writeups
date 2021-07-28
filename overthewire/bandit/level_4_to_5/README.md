@@ -11,7 +11,7 @@ Just like the previous levels we ssh into the server using:
 $ ssh bandit.labs.overthewire.org -l bandit4 -p 2220
 ```
 
-_You'll need to pass in the password from the previous level, i.e.: `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`_
+_You'll need to pass in the password from the previous level, i.e.: `pIwrPrtPN36QITSp3EQaw936yaFoFgAB`_
 
 <br>
 

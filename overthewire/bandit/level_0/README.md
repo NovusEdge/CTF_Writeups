@@ -18,6 +18,10 @@ This is a OverTheWire game server. More information on http://www.overthewire.or
 bandit0@bandit.labs.overthewire.org's password:
 ```
 
+<br>
+<br>
+<br>
+
 Once we pass in `bandit0` as the password, we are greeted with the following:
 
 ```txt
@@ -108,6 +112,10 @@ in the following locations:
 
     Enjoy your stay!
 ```
+
+<br>
+<br>
+
 
 Further along we see a prompt:
 

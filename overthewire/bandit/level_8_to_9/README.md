@@ -17,7 +17,7 @@ _You'll need to pass in the password from the previous level, i.e.: `cvX2JJa4CFA
 
 As mentioned in the level discription, we know that the password is the only unique text line that occurs in the file: `~/data.txt`
 
-We can do this by using a mix of the [`uniq`](uniq), [`sort`](sort) and [`grep`](grep) commands:
+We can do this by using a mix of the [`uniq`](https://linux.die.net/man/1/uniq), [`sort`](https://linux.die.net/man/1/sort) and [`grep`](https://linux.die.net/man/1/grep) commands:
 
 
 ```shell
@@ -33,8 +33,3 @@ bandit8@bandit:~$ sort data.txt | uniq -c | grep "1 "
 ---
 
 Link to the level: [Level 8 ➙ Level 9](https://overthewire.org/wargames/bandit/bandit9.html)
-
-
-[grep]: https://linux.die.net/man/1/grep
-[uniq]: https://linux.die.net/man/1/uniq
-[sort]: https://linux.die.net/man/1/sort

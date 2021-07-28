@@ -13,7 +13,7 @@ _You'll need to pass in the password from the previous level, i.e.: `UmHadQclWmg
 
 <br>
 
-Now, as per the discription of the level, we navigate to the `inhere` directory using the [`cd`](cd) command.
+Now, as per the discription of the level, we navigate to the `inhere` directory using the [`cd`](https://linux.die.net/man/1/cd) command.
 
 ```shell
 bandit3@bandit:~$ cd inhere/
@@ -22,7 +22,7 @@ bandit3@bandit:~/inhere$
 
 <br>
 
-Since we've been given the hint that the file is "hidden", we can use the [`ls`](ls) command with the `-a` flag to display all files within the directory.
+Since we've been given the hint that the file is "hidden", we can use the [`ls`](https://linux.die.net/man/1/ls) command with the `-a` flag to display all files within the directory.
 
 ```shell
 bandit3@bandit:~/inhere$ ls -a
@@ -33,7 +33,7 @@ There it is. The hidden file's named: `.hidden`
 
 <br>
 
-Once again using the [`cat`](cat) command we can display the password for the next level:
+Once again using the [`cat`](https://linux.die.net/man/1/cat) command we can display the password for the next level:
 
 ```shell
 bandit3@bandit:~/inhere$ cat ./.hidden
@@ -48,7 +48,3 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 ---
 
 Link to the level: [Level 3 ➙ Level 4](https://overthewire.org/wargames/bandit/bandit4.html)
-
-[ls]: https://linux.die.net/man/1/ls
-[cat]: https://linux.die.net/man/1/cat
-[cd]: https://linux.die.net/man/1/cd

@@ -23,7 +23,7 @@ After reading the level discription, we have been given the following properties
 - owner group: `bandit6`
 - size: `33 bytes`
 
-We can once again use the [`find`](find) command to find the file with the given specifications.
+We can once again use the [`find`](https://linux.die.net/man/1/find) command to find the file with the given specifications.
 
 ```shell
 bandit6@bandit:~$ find / -group "bandit6" -user "bandit7" -size 33c -type f
@@ -107,5 +107,3 @@ HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ---
 
 Link to the level: [Level 6 ➙ Level 7](https://overthewire.org/wargames/bandit/bandit7.html)
-
-[find]: https://linux.die.net/man/1/find

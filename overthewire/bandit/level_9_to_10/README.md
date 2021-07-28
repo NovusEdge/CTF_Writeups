@@ -16,7 +16,7 @@ _You'll need to pass in the password from the previous level, i.e.: `UsvVyFSfZZW
 <br>
 
 
-Following the level discription, we can use the [`strings`](strings) and [`grep`](grep) to extract the password from `data.txt`
+Following the level discription, we can use the [`strings`](https://linux.die.net/man/1/strings) and [`grep`](https://linux.die.net/man/1/grep) to extract the password from `data.txt`
 
 ```shell
 bandit9@bandit:~$ strings data.txt | grep "=="
@@ -36,6 +36,3 @@ Z)========== is
 ---
 
 Link to the level: [Level 9 ➙ Level 10](https://overthewire.org/wargames/bandit/bandit10.html)
-
-[grep]: https://linux.die.net/man/1/grep
-[strings]: https://linux.die.net/man/1/strings

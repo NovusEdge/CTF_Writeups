@@ -14,7 +14,7 @@ _You'll need to pass in the password from the previous level, i.e.: `HKBPTKQnIay
 
 <br>
 
-Keeping the level discription in mind, we can use the [`grep`](grep) command to get the password for the next level:
+Keeping the level discription in mind, we can use the [`grep`](https://linux.die.net/man/1/grep) command to get the password for the next level:
 
 ```shell
 bandit7@bandit:~$ grep -H 'millionth' data.txt  2>&1
@@ -29,6 +29,3 @@ data.txt:millionth      cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 ---
 
 Link to the level: [Level 7 ➙ Level 8](https://overthewire.org/wargames/bandit/bandit8.html)
-
-
-[grep]: https://linux.die.net/man/1/grep

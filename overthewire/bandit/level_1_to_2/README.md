@@ -9,7 +9,7 @@ According to the level discription, the password to the next level is in a file 
 <br>
 <br>
 
-First we need to log into the ssh server using the `ssh` command like so:
+First we need to log into the ssh server using the [`ssh`](ssh) command like so:
 
 ```shell
 $ ssh bandit.labs.overthewire.org -l bandit1 -p 2220
@@ -63,3 +63,6 @@ We can now proceed to the next level. :D
 ---
 
 Link to the level: [Level 1 ➙ Level 2](https://overthewire.org/wargames/bandit/bandit2.html)
+
+
+[ssh]: https://linux.die.net/man/1/ssh "ssh"

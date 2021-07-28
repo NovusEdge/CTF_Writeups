@@ -56,7 +56,7 @@ drwxr-x---  2 root bandit5 4096 May  7  2020 maybehere19
 <br>
 <br>
 
-Let's now check what type of stuff we have in `inhere` using the `file` command:
+Let's now check what type of stuff we have in `inhere` using the [`file`](file) command:
 
 ```shell
 bandit5@bandit:~/inhere$ file ./*
@@ -85,7 +85,7 @@ bandit5@bandit:~/inhere$ file ./*
 <br>
 <br>
 
-All of these directories are full of different files. We can now use the `find` to find the desirable file.
+All of these directories are full of different files. We can now use the [`find`](file) to find the desirable file.
 
 ```shell
 bandit5@bandit:~/inhere$ find . -type f -readable ! -executable -size 1033c
@@ -94,7 +94,7 @@ bandit5@bandit:~/inhere$ find . -type f -readable ! -executable -size 1033c
 
 <br>
 
-We can now use the `cat` command to get the password for next level:
+We can now use the [`cat`](cat) command to get the password for next level:
 
 ```shell
 bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
@@ -109,3 +109,7 @@ DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ---
 
 Link to the level: [Level 5 ➙ Level 6](https://overthewire.org/wargames/bandit/bandit6.html)
+
+
+[cat]: https://linux.die.net/man/1/cat
+[file]: https://linux.die.net/man/1/file

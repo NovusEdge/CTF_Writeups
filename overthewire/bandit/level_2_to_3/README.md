@@ -6,7 +6,7 @@ this filename" located in the home directory
 
 ---
 
-Just like the previous level, we'll log onto the ssh server using the `ssh` commmand:
+Just like the previous level, we'll log onto the ssh server using the [`ssh`](ssh) commmand:
 
 ```shell
 $ ssh bandit.labs.overthewire.org -l bandit2 -p 2220
@@ -18,7 +18,7 @@ _You'll need to pass in the password from the previous level, i.e.: `CV1DtqXWVFX
 
 As the level discription states, we know that the password for the next level is in the directory: `spaces in the filename`.
 
-Sure enough, using the `ls` command, we can see that such a directory does exist, and we can use the `cat` command to display it's contents:
+Sure enough, using the [`ls`](ls) command, we can see that such a directory does exist, and we can use the [`cat`](cat) command to display it's contents:
 
 ```shell
 bandit2@bandit:~$ ls -l
@@ -44,3 +44,8 @@ We can now move to the next level. :)
 ---
 
 Link to the level: [Level 2 ➙ Level 3](https://overthewire.org/wargames/bandit/bandit3.html)
+
+
+[ssh]: https://linux.die.net/man/1/ssh
+[ls]:https://linux.die.net/man/1/ls
+[cat]: https://linux.die.net/man/1/cat

@@ -9,15 +9,20 @@ Just like the previous levels we ssh into the server using:
 ```shell
 $ ssh bandit.labs.overthewire.org -l bandit3 -p 2220
 ```
+_You'll need to pass in the password from the previous level, i.e.: `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`_
 
-Now, as per the discription of the level, we navigate to the `inhere` directory using the `cd` command.
+<br>
+
+Now, as per the discription of the level, we navigate to the `inhere` directory using the [`cd`](cd) command.
 
 ```shell
 bandit3@bandit:~$ cd inhere/
 bandit3@bandit:~/inhere$
 ```
 
-Since we've been given the hint that the file is "hidden", we can use the `ls` command with the `-a` flag to display all files within the directory.
+<br>
+
+Since we've been given the hint that the file is "hidden", we can use the [`ls`](ls) command with the `-a` flag to display all files within the directory.
 
 ```shell
 bandit3@bandit:~/inhere$ ls -a
@@ -26,7 +31,9 @@ bandit3@bandit:~/inhere$ ls -a
 
 There it is. The hidden file's named: `.hidden`
 
-Once again using the `cat` command we can display the password for the next level:
+<br>
+
+Once again using the [`cat`](cat) command we can display the password for the next level:
 
 ```shell
 bandit3@bandit:~/inhere$ cat ./.hidden
@@ -35,9 +42,13 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 ---
 
-##### Password for Level 3 ➙ Level 4:
+##### Password for next level:
     pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 ---
 
 Link to the level: [Level 3 ➙ Level 4](https://overthewire.org/wargames/bandit/bandit4.html)
+
+[ls]: https://linux.die.net/man/1/ls
+[cat]: https://linux.die.net/man/1/cat
+[cd]: https://linux.die.net/man/1/cd

@@ -8,7 +8,7 @@ Once logged in, go to the Level 1 page to find out how to beat Level 1.
 
 ---
 
-As stated in the discription for `level_0`, we use `ssh` to log into the given host.
+As stated in the discription for `level_0`, we use [`ssh`](ssh) to log into the given host.
 
 ```shell
 $ ssh bandit.labs.overthewire.org -l bandit0 -p 2220
@@ -17,6 +17,10 @@ This is a OverTheWire game server. More information on http://www.overthewire.or
 
 bandit0@bandit.labs.overthewire.org's password:
 ```
+
+<br>
+<br>
+<br>
 
 Once we pass in `bandit0` as the password, we are greeted with the following:
 
@@ -109,6 +113,10 @@ in the following locations:
     Enjoy your stay!
 ```
 
+<br>
+<br>
+
+
 Further along we see a prompt:
 
 ```shell
@@ -120,3 +128,7 @@ This is for the next round :)
 ---
 
 Link to the level: [Level 0](https://overthewire.org/wargames/bandit/bandit0.html)
+
+
+
+[ssh]: https://linux.die.net/man/1/ssh "ssh"

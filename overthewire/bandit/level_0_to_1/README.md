@@ -22,13 +22,16 @@ boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 We can now use this password to log onto the next level's ssh server :)
 
-PS: to exit the ssh server prompt, simply use the `exit` command.
+PS: to exit the ssh server prompt, simply use the [`exit`](exit) command.
 
 ---
 
-##### Password for Level 0 ➙ Level 1:
+##### Password Password for next level:
     boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 ---
 
 Link to the level: [Level 0 ➙ Level 1](https://overthewire.org/wargames/bandit/bandit1.html)
+
+
+[exit]: https://linux.die.net/man/2/exit "exit"

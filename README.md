@@ -15,6 +15,10 @@
         - [Level 7 ➙ Level 8](overthewire/bandit/level_7_to_8)
         - [Level 8 ➙ Level 9](overthewire/bandit/level_8_to_9)
         - [Level 9 ➙ Level 10](overthewire/bandit/level_9_to_10)
+        - [Level 10 ➙ Level 11](overthewire/bandit/level_10_to_11)
+        - [Level 11 ➙ Level 12](overthewire/bandit/level_11_to_12)
+        - [Level 12 ➙ Level 13](overthewire/bandit/level_12_to_13)
+        - [Level 13 ➙ Level 14](overthewire/bandit/level_13_to_14)
 
 - #### [picoCTF](pico):
     - [Mod 26](picoCTF/mod_26)

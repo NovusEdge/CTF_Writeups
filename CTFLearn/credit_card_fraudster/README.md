@@ -52,7 +52,7 @@ First, we need to implement the [Luhn Algorithm](https://en.wikipedia.org/wiki/L
 ---
 
 #### The Flag:
-
+    5432103279251234
 
 
 Link to the challenge: [The Credit Card Fraudster](https://ctflearn.com/challenge/970)

@@ -2,7 +2,7 @@
 
 ## Contents:
 
-- #### [OverTheWire](otw):
+- #### [OverTheWire](https://overthewire.org/wargames/):
     - ##### [Bandit](https://overthewire.org/wargames/bandit/):
         - [Level 0](overthewire/bandit/level_0)
         - [Level 0 ➙ Level 1](overthewire/bandit/level_0_to_1)
@@ -22,22 +22,20 @@
         - [Level 14 ➙ Level 15](overthewire/bandit/level_14_to_15)
         - [Level 15 ➙ Level 16](overthewire/bandit/level_15_to_16)
 
-- #### [picoCTF](pico):
+- #### [picoCTF]( https://play.picoctf.org/practice):
     - [Mod 26](picoCTF/mod_26)
     - [Nice Netcat](picoCTF/nice_netcat)
     - [Obedient Cat](picoCTF/obedient_cat)
     - [Python Wrangling](picoCTF/python_wrangling)
     - [Wave A Flag](picoCTF/wave_a_flag)
 
-- #### [MLC](mlc):
-    - ##### Cryptography
+- #### [MLC](https://training.majorleaguecyber.org/challenges):
+    - ##### Cryptography:
         - [Exclusor](MLC/exclusor)
         - [Mono Shift](MLC/mono_shift)
         - [Sub Out](MLC/sub_out)
         - [Weak Primes](MLC/weak_primes)
 
-
-
-[otw]: https://overthewire.org/wargames/
-[pico]: https://play.picoctf.org/practice
-[mlc]: https://training.majorleaguecyber.org/challenges
+- #### [CTFLearn](https://ctflearn.com/challenge):
+    - ##### Programming:
+        - [Simple Programming](CTFLearn/simple_programming)

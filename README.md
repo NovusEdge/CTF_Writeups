@@ -46,3 +46,5 @@
 
     - ##### Cryptography:
         - [Character Encoding](CTFLearn/Cryptography/character_encoding)
+        - [2 2 the 6](CTFLearn/Cryptography/2_2_the_6)
+        

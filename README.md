@@ -38,4 +38,7 @@
 
 - #### [CTFLearn](https://ctflearn.com/challenge):
     - ##### Programming:
-        - [Simple Programming](CTFLearn/simple_programming)
+        - [Simple Programming](CTFLearn/Programming/simple_programming)
+
+    - ##### Forensics:
+        - [Forensics 101](CTFlearn/Forensics/forensics_101)

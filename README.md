@@ -41,4 +41,8 @@
         - [Simple Programming](CTFLearn/Programming/simple_programming)
 
     - ##### Forensics:
-        - [Forensics 101](CTFlearn/Forensics/forensics_101)
+        - [Forensics 101](CTFLearn/Forensics/forensics_101)
+        - [Taking Ls](CTFLearn/Forensics/taking_ls)
+
+    - ##### Cryptography:
+        - [Character Encoding](CTFLearn/Cryptography/character_encoding)

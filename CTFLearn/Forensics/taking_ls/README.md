@@ -10,7 +10,7 @@ _[File Link](https://mega.nz/#!mCgBjZgB!_FtmAm8s_mpsHr7KWv8GYUzhbThNn0I8cHMBi4fJ
 
 The link leads to a zip file, which we can unzip using [`unzip`]()
 
-```console
+```zsh
 $ unzip The\ Flag.zip
 Archive:  The Flag.zip
    creating: The Flag/

@@ -21,6 +21,7 @@
         - [Level 13 ➙ Level 14](overthewire/bandit/level_13_to_14)
         - [Level 14 ➙ Level 15](overthewire/bandit/level_14_to_15)
         - [Level 15 ➙ Level 16](overthewire/bandit/level_15_to_16)
+        - [Level 16 ➙ Level 17](overthewire/bandit/level_16_to_17)
 
 - #### [picoCTF]( https://play.picoctf.org/practice):
     - [Mod 26](picoCTF/mod_26)
@@ -41,4 +42,17 @@
         - [Simple Programming](CTFLearn/Programming/simple_programming)
 
     - ##### Forensics:
-        - [Forensics 101](CTFlearn/Forensics/forensics_101)
+        - [Forensics 101](CTFLearn/Forensics/forensics_101)
+        - [Taking Ls](CTFLearn/Forensics/taking_ls)
+
+    - ##### Cryptography:
+        - [Character Encoding](CTFLearn/Cryptography/character_encoding)
+        - [2 2 the 6](CTFLearn/Cryptography/2_2_the_6)
+
+    - ##### Web:
+        - [Basic Injection](CTFLearn/Web/basic_injection)
+
+- #### [HackTheBox]():
+    - ##### Forensics:
+        - [Illumination](HTB/Forensics/illumination)
+    

@@ -96,12 +96,12 @@ $ echo "SFRCe3YzcnNpMG5fYzBudHIwbF9hbV9JX3JpZ2h0P30=" | base64 -d
 HTB{v3rsi0n_c0ntr0l_am_I_right?}
 ```
 
-
+Well, there's the flag! :)
 
 ---
 
 ### The Flag:
-
+    HTB{v3rsi0n_c0ntr0l_am_I_right?}
 
 
 Link to the challenge: [Illumination](https://app.hackthebox.eu/challenges/87)

@@ -48,3 +48,11 @@
     - ##### Cryptography:
         - [Character Encoding](CTFLearn/Cryptography/character_encoding)
         - [2 2 the 6](CTFLearn/Cryptography/2_2_the_6)
+
+    - ##### Web:
+        - [Basic Injection](CTFLearn/Web/basic_injection)
+
+- #### [HackTheBox]():
+    - ##### Forensics:
+        - [Illumination](HTB/Forensics/illumination)
+    

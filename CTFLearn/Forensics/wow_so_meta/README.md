@@ -33,7 +33,7 @@ $ grep "flag" image_text.txt --text
 And there it is! :D
 
 #### The Flag:
-    flag{EEe_x_I_FFf}
+    CTFLearn{EEe_x_I_FFf}
 
 
 Link to the challenge: [Wow... So Meta](https://ctflearn.com/challenge/348)

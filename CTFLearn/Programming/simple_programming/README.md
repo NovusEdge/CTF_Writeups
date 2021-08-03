@@ -15,7 +15,7 @@ As we follow the link given in the challenge statement, we can download a file: 
 
 We can then use a script like `fancy_count.py` to solve this.
 
-```console
+```zsh
 $ python3 fancy_count.py
 Flag: 6662
 Time Taken: 0.0031092166900634766

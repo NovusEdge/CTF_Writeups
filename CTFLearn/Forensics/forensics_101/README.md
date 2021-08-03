@@ -19,7 +19,7 @@ _Yep, it's a facebook minion meme (ffs...)_
 
 We can extract the flag using the [`strings`](https://linux.die.net/man/1/strings) tool/command:
 
-```console
+```zsh
 $ strings 95f6edfb66ef42d774a5a34581f19052.jpg
 JFIF
  , #&')*)
@@ -48,7 +48,7 @@ D_ O
 
 We can shorten this by simply using [`grep`](https://linux.die.net/man/1/grep)
 
-```console
+```zsh
 $ strings 95f6edfb66ef42d774a5a34581f19052.jpg | grep flag
 flag{wow!_data_is_cool}
 ```

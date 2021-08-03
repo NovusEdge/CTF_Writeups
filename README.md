@@ -29,6 +29,7 @@
     - [Obedient Cat](picoCTF/obedient_cat)
     - [Python Wrangling](picoCTF/python_wrangling)
     - [Wave A Flag](picoCTF/wave_a_flag)
+    - [Insp3ct0r](picoCTF/insp3ct0r)
 
 - #### [MLC](https://training.majorleaguecyber.org/challenges):
     - ##### Cryptography:
@@ -44,10 +45,12 @@
     - ##### Forensics:
         - [Forensics 101](CTFLearn/Forensics/forensics_101)
         - [Taking Ls](CTFLearn/Forensics/taking_ls)
+        - [Wow...So Meta](CTFLearn/Forensics/wow_so_meta)
 
     - ##### Cryptography:
         - [Character Encoding](CTFLearn/Cryptography/character_encoding)
         - [2 2 the 6](CTFLearn/Cryptography/2_2_the_6)
+        - [Hextroadinary](CTFLearn/Cryptography/hextroadinary)
 
     - ##### Web:
         - [Basic Injection](CTFLearn/Web/basic_injection)
@@ -55,4 +58,3 @@
 - #### [HackTheBox]():
     - ##### Forensics:
         - [Illumination](HTB/Forensics/illumination)
-    

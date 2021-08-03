@@ -11,7 +11,7 @@ As the ctf title tells us: `2 2 the 6` i.e. "2 to the 6th power" or, in other wo
 
 To decode it, we can use [`base64`](https://linux.die.net/man/1/base64):
 
-```console
+```zsh
 $ echo "Q1RGe0ZsYWdneVdhZ2d5UmFnZ3l9" | base64 --decode
 CTF{FlaggyWaggyRaggy}
 ```

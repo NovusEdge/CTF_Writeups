@@ -12,7 +12,7 @@ Can you figure this one out?
 
 The given string of text in the ctf discription is clearly hex code, so to decode it, we can use [`xxd`](https://linux.die.net/man/1/xxd):
 
-```console
+```zsh
 $ echo "41 42 43 54 46 7B 34 35 43 31 31 5F 31 35 5F 55 35 33 46 55 4C 7D" | xxd -p -r
 ABCTF{45C11_15_U53FUL}
 ```

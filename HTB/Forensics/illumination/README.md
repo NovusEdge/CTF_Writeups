@@ -7,7 +7,7 @@ Can you find the secret token?
 ---
 
 Unzipping the given file:
-```console
+```zsh
 $ unzip Illumination.zip
 ```
 
@@ -18,7 +18,7 @@ _Pass in `hackthebox` as the password when prompted._
 
 When we have a look at the contents of `Illumination.JS/config.json`, one can quickly see that the `"username"` field has a base64 encoded string. This can be decoded like so:
 
-```console
+```zsh
 $ echo "UmVkIEhlcnJpbmcsIHJlYWQgdGhlIEpTIGNhcmVmdWxseQ==" | base64 -d
 Red Herring, read the JS carefully
 ```
@@ -27,7 +27,7 @@ Following the instructions, we need to go through the `bot.js` file.
 
 Nothing special there, however, there's a `.git` directory as well, so we can use the `git log` command to see the logs from previous commits:
 
-```console
+```zsh
 $ git log
 
 
@@ -58,7 +58,7 @@ Date:   Thu May 30 22:16:02 2019 +0100
 
 For shorter message:
 
-```console
+```zsh
 $ git log --oneline
 
 edc5aab (HEAD -> master) Added some whitespace for readability!
@@ -72,7 +72,7 @@ ddc606f Added some more comments for the lovely contributors! Thanks for helping
 
 Now, as we can see, in the commit: `335d6cfe3cdc25b89cae81c50ffb957b86bf5a4a` or `335d6cf`, the message says that a security token was removed, so we can try and revert to the mentioned commit:
 
-```console
+```zsh
 $ git reset --hard 335d6cf
 HEAD is now at 335d6cf Moving to Git, first time using it. First Commit!
 
@@ -91,17 +91,17 @@ $ cat config.json
 
 As we can see, the `"token"` field now has the token mentioned previously. It's encoded in base64 as well, so let's see what it says after decoding.
 
-```console
+```zsh
 $ echo "SFRCe3YzcnNpMG5fYzBudHIwbF9hbV9JX3JpZ2h0P30=" | base64 -d
 HTB{v3rsi0n_c0ntr0l_am_I_right?}
 ```
 
-
+Well, there's the flag! :)
 
 ---
 
 ### The Flag:
+    HTB{v3rsi0n_c0ntr0l_am_I_right?}
 
 
-
-Link to the challenge: [Illumination](https://app.hackthebox.eu/challenges/87)
+Link to the challenge: [Illumination](https://app.hackthebox.eu/challenges/illumination)

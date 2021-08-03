@@ -29,6 +29,7 @@
     - [Obedient Cat](picoCTF/obedient_cat)
     - [Python Wrangling](picoCTF/python_wrangling)
     - [Wave A Flag](picoCTF/wave_a_flag)
+    - [Insp3ct0r](picoCTF/insp3ct0r)
 
 - #### [MLC](https://training.majorleaguecyber.org/challenges):
     - ##### Cryptography:

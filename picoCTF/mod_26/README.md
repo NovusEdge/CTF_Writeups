@@ -20,4 +20,4 @@ To decode the flag, we may either use a script like `rot13.py`, or a website lik
 	picoCTF{next_time_I'll_try_2_rounds_of_rot13_ZNMldSDw}
 
 
-Link to the challenge: [Mod 26](https://play.picoctf.org/practice/challenge/144?page=1&solved=1)
+Link to the challenge: [Mod 26](https://play.picoctf.org/practice/challenge/144)

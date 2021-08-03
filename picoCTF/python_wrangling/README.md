@@ -33,4 +33,4 @@ picoCTF{4p0110_1n_7h3_h0us3_aa821c16}
     picoCTF{4p0110_1n_7h3_h0us3_aa821c16}
 
 
-Link to the challenge: [Python Wrangling](https://play.picoctf.org/practice/challenge/166?page=1&solved=0)
+Link to the challenge: [Python Wrangling](https://play.picoctf.org/practice/challenge/166)

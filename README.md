@@ -30,6 +30,8 @@
     - [Python Wrangling](picoCTF/python_wrangling)
     - [Wave A Flag](picoCTF/wave_a_flag)
     - [Insp3ct0r](picoCTF/insp3ct0r)
+    - [Static ain't always noise](picoCTF/static_aint_always_noise)
+    - [The Numbers](picoCTF/the_numbers)
 
 - #### [MLC](https://training.majorleaguecyber.org/challenges):
     - ##### Cryptography:

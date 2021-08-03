@@ -12,4 +12,4 @@ This file has a flag in plain sight (aka "in-the-clear").
 
 The flag's just there, simple :)
 
-Link to the challenge: [Obedient_Cat](https://play.picoctf.org/practice/challenge/147?page=1&solved=0)
+Link to the challenge: [Obedient_Cat](https://play.picoctf.org/practice/challenge/147)

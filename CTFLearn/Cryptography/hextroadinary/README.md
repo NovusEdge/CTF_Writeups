@@ -24,7 +24,7 @@ $ echo $((0x4cf8))
 
 And there they are, `803093` and `19704`.
 
-Looking carefully at the challenge title, it becomes evident that "ROXy" reversed is simply: "yXOR", and the capitalized "XOR" tells us about the encoding of the data . It is encrypted using xor. So we'll try and decode it:
+Looking carefully at the challenge(the entity: ROXy), it becomes evident that "ROXy" reversed is simply: "yXOR", and the capitalized "XOR" tells us about the encoding of the data . It is encrypted using xor. So we'll try and decode it:
 
 ```zsh
 $ echo $((19704 ^ 803093))
@@ -50,4 +50,4 @@ $ python3 -c "print(hex(789997))"
     CTFLearn{0xc0ded}
 
 
-Link to the challenge: [ROXy](https://ctflearn.com/challenge/158)
+Link to the challenge: [Hextroadinary](https://ctflearn.com/challenge/158)
